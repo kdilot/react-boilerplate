@@ -21,6 +21,10 @@ ul {
     list-style-type: none;
 }
 
+input:focus {
+    outline: none;
+}
+
 /* @font-face {
   font-family: 'TTTogether';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff')
