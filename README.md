@@ -43,5 +43,3 @@ dev
 // style
 @types/styled-components
 ```
-
-test2
