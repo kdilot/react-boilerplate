@@ -28,7 +28,10 @@ const Language: React.FC = () => {
                     English
                 </LanguageBox>
             </LanguageContainer>
-            <TextBox>{t('hello')}</TextBox>
+            <TextBox>
+                {t('hello')}
+                {t('n.test', { n: '!!!' })}
+            </TextBox>
         </Container>
     );
 };
