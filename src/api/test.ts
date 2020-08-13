@@ -7,7 +7,7 @@ export const test = async () => {
         .then((res) => {
             return res.data;
         })
-        .catch((res) => {
-            return { data: [] };
+        .catch((err) => {
+            return err;
         });
 };

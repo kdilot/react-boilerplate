@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import loadable from '@loadable/component';
 import 'assets/lang/i18n';
 
-const Language = loadable(() => import('pages/Language'));
+const Language = loadable(() => import('pages/language'));
 const NotFound = loadable(() => import('pages/404'));
 
 const Root: React.FC = () => {
