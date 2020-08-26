@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import loadable from '@loadable/component';
-import 'assets/lang/i18n';
+import 'assets/langs/i18n';
 
 const Language = loadable(() => import('pages/language'));
 const NotFound = loadable(() => import('pages/404'));

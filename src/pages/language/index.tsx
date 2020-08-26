@@ -1,5 +1,5 @@
 import React from 'react';
-import i18next from 'assets/lang/i18n';
+import i18next from 'assets/langs/i18n';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
 
