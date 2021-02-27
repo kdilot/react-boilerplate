@@ -12,9 +12,9 @@ const currentLang = localStorage.getItem('lang');
 
 i18n.use(initReactI18next).init({
     resources: resource,
-    lng: currentLang ? currentLang : 'ko',
-    fallbackLng: 'ko',
-    debug: true,
+    lng: currentLang ? currentLang : 'en',
+    fallbackLng: 'en',
+    debug: false,
     keySeparator: false,
     interpolation: { escapeValue: false },
 });

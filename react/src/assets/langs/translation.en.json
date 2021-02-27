@@ -1,4 +1,6 @@
 {
+    "react": "React",
+    "facebook": "Facebook",
     "hello": "Hello !!",
     "n.test": "{{n}}"
 }

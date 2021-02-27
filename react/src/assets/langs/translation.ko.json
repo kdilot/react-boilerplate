@@ -1,4 +1,6 @@
 {
+    "react":"리액트",
+    "facebook":"페이스북",
     "hello": "안녕",
     "n.test": "{{n}}"
 }
