@@ -1,4 +1,4 @@
-#### REACT
+#### REACT 기본설정
 
 - typescript
 - redux (w/ typesafe-actions, immer)
@@ -7,7 +7,7 @@
 - @loadable/component
 - styled-components
 
-#### NEXT
+#### NEXT 기본설정
 
 - typescript
 - redux (w/ next-redux-wrapper, typesafe-actions, immer)
